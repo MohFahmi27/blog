@@ -1,0 +1,34 @@
+{{ define "title" }}
+    My Personal Blog
+{{ end }}
+{{ define "content" }}
+  {{ range $index, $element := .Pages }}
+    {{ if eq $index 0}}
+        <div class="columns is-vcentered">
+            <div class="column is-6">
+                <center>
+                <a href="{{$element.Params.URL}}">
+                    <figure class="image is-3by2">
+                        <img src="{{$element.Params.thumbnail}}" alt="Thumbnail">
+                    </figure>
+                </a>
+                </center>
+            </div>
+            <div class="column ml-5">
+                <p class="is-size-7 has-text-grey">{{dateFormat "Jan 02, 2006" $element.Date}}</p>
+                <h1 class="title is-2 has-text-white is-spaced mr-4">{{$element.Title}}</h1>
+                <h2 class="subtitle is-6 mr-5">{{$element.Summary}}</h2>
+                {{range $element.Params.tags}}
+                    <span class="tag is-primary" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</span> 
+                {{end}}
+            </div>
+        </div>
+    {{ else }}
+        <article>
+            <h2>{{ $element.Title }}</h2>
+            {{ $index }}
+            {{ $element.Content }}
+        </article>
+    {{ end }}
+  {{ end }}
+{{ end }}
