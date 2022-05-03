@@ -2,24 +2,11 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  background-image: url('../img/background.svg');
-}
-
-img.absolute {
-    position: absolute;
-    z-index: -1;
-    margin: 0px;
-}
-
-img.rounded-corners {
-    border-radius: 0.80rem;
-}
-
-.navbar.is-fixed-top.scroll {
-  transition: background-color 0.4s linear;
-  background-color: hsla(0, 0%, 4%, 0.445);
-  border-bottom-left-radius: 0.80rem;
+hr {
+  background-color: #0a1aa8;
+  height: 5px;
+  width: 100px;
+  border-radius: 2px;
 }
 
 ::-webkit-scrollbar {

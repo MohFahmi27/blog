@@ -1,6 +1,33 @@
 {{define "title"}}
-testing
+    {{ .Title }}
 {{end}}
 
 {{define "content"}}
+    <p class="is-size-6 has-text-grey has-text-weight-bold has-text-centered">{{dateFormat "January 02, 2006" .Date}}</p>
+    <h1 class="title is-1 has-text-white has-text-centered mt-2">{{ .Title }}</h1>
+    <figure class="image is-3by2 mb-5">
+        <img src="{{.Params.thumbnail}}" alt="Thumbnail">
+    </figure>
+    <div class="tile is-ancestor mt-6">
+        <div class="tile is-parent">
+            <div class="tile is-child is-4">
+                <h1 class="title is-2 mt-4 has-text-white">
+                    "   The world is beautiful for those who are beautiful inside "
+                </h1>
+                {{range .Params.tags}}
+                    {{$url := print "/tags/" ( . | urlize) "/"}}
+                    <a href="{{- $url | relURL -}}">
+                        <span class="tag is-primary mb-5">{{ . }}</span> 
+                    </a>
+                {{end}}
+            </div>
+            <div class="tile is-child">
+                <div class="content has-text-justified ml-5">
+                    {{ .Content }}
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
 {{end}}
