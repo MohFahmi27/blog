@@ -5,6 +5,7 @@ on:
     branches:
       - main  # Set a branch to deploy
   pull_request:
+
 jobs:
   deploy:
     runs-on: ubuntu-20.04
