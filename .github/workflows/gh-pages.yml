@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main  # Set a branch to deploy
+    paths:
+      - 'blog/'
   pull_request:
 
 jobs:
@@ -20,7 +22,7 @@ jobs:
         with:
           hugo-version: 'latest'
           # extended: true
-          
+
       - name: Build
         run: hugo --minify
 
