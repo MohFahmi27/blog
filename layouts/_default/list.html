@@ -1,13 +1,9 @@
 {{ define "content" }}
-    <section class="hero">
-        <div class="hero-body">
-            <div class="containter">
-                <h1 class="title has-text-white" style="font-size:8vw;">
-                    My Blog.
-                    <hr>
-                </h1>
-            </div>
-        </div>
+    <section class="hero mb-6">
+        <h1 class="title has-text-white" style="font-size:8vw;">
+            My Blog.
+            <hr>
+        </h1>
     </section>
   {{ range $index, $element := .Pages }}
     {{ if and (eq $index 0) (not (eq ($element.Params.thumbnail) "none")) }}

@@ -7,17 +7,24 @@ isLongRead: false
 ---
 {{< title-content >}}Disagreement and angriness{{< /title-content >}}
 The sign of people feeling angry or disagreement sometimes is shown by crossing hands below the chest or right in front of the chest, this body language also very common during daily conversations
+
 One of the reasons people do this is because they feel uncomfortable or disagree with someone, usually people showing this give you a sign that they feel uncomfortable about the conversation.
+
 Trying to observe this kind of behavior and trying to make things much easier for you by giving them space, is not a very good decision to continue the conversation much further if someone feels uncomfortable.
+
 additional things to do is reflecting about what you have done earlier that made them uncomfortable.
 
 {{< divider >}}
 
 {{< title-content >}}Ruler or bossy gesture{{< /title-content >}}
 When someone has some sort of authority feeling or position they will have some sort of body language and movement that usually occurred when they're walking, during an interview, and during a meeting.
+
 One of the most obvious is crossing the hand palm at the back of the body, this gesture usually exists when the president or a leader has to walk with their subordinate or member.
+
 Opposite things will happen to their subordinate body language when they face their leader which usually they try to cross their palm in front of their body, which you could pretty much see at the image below.
+
 Another sign of authority and ruler gesture is that people could behave like they are comfortable in their environment without some slightest worry about other people's judgement, for example like someone putting their leg on top of the table, exhaling cigarette smoke above everyone, and putting one of their hands or both hands right on the waist. 
+
 One of the ways to deal with this type of person is to usually try to compliment them, because they really love it when someone compliments them, try to not seem as arrogant or disagree with them as much as possible because their ego is really big and hard to compete with.
 
 {{< title-content >}}Hand gesture{{< /title-content >}}

@@ -8,20 +8,25 @@ isLongRead: true
 ---
 {{< title-content >}}Focus on long term{{< /title-content >}}
 Never spend all your paycheck in one day.
+
 Try to calculate all your expenses.
 
 {{< divider >}}
 
 {{< title-content >}}Assets and Liabilities{{< /title-content >}}
 Assets is something that will make money go into your wallet, liabilities is something that will make your money go away from your wallet.
+
 Always focus on assets because this will affect you a lot in the long term.
+
 Not all the liabilities are bad though, for example food, house rent, and insurance. What you wanna do is always try to mitigate all your expenses on liabilities. 
+
 Try to begin investing in the stock market or real estate.
 
 {{< divider >}}
 
 {{< title-content >}}Retire early could possible{{< /title-content >}}
 You could retire from working something that you don’t wanna do and have passive income.
+
 Retiring early means you have financial freedom.
 
 {{< divider >}}
