@@ -1,5 +1,6 @@
 # Blog
 My simple personal blog using Hugo static website generators with Bulma CSS Framework.
+https://mohfahmi27.github.io/blog/
 
 ![Web capture_5-5-2022_14422_mohfahmi27 github io](https://user-images.githubusercontent.com/50865350/166870382-c0b18c09-3468-4158-8af0-5a42f9c4d467.jpeg)
 
